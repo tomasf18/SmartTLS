@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2024-10-04 14:59:14 by Eclipse SUMO GUI Version 1.20.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="sumo_config/aveiro_traffic/osm.net.xml.gz"/>
+        <route-files value="sumo_config/aveiro_traffic/osm_pt.rou.xml,sumo_config/aveiro_traffic/osm.passenger.trips.xml,sumo_config/aveiro_traffic/osm.pedestrian.rou.xml"/>
+        <additional-files value="sumo_config/aveiro_traffic/osm.poly.xml.gz,sumo_config/aveiro_traffic/osm_stops.add.xml,sumo_config/aveiro_traffic/osm.det.xml"/>
+    </input>
+
+    <output>
+        <tripinfo-output.write-unfinished value="true"/>
+    </output>
+
+    <processing>
+        <ignore-route-errors value="true"/>
+        <scale value="1"/>
+        <tls.actuated.jam-threshold value="30"/>
+    </processing>
+
+    <routing>
+        <device.rerouting.adaptation-steps value="18"/>
+        <device.rerouting.adaptation-interval value="10"/>
+    </routing>
+
+    <report>
+        <verbose value="true"/>
+        <no-warnings value="true"/>
+        <duration-log.statistics value="true"/>
+        <no-step-log value="true"/>
+    </report>
+
+    <emissions>
+        <device.emissions.probability value="0.10"/>
+    </emissions>
+
+    <traci_server>
+        <remote-port value="57707"/>
+    </traci_server>
+
+    <gui_only>
+        <gui-settings-file value="sumo_config/aveiro_traffic/osm.view.xml"/>
+    </gui_only>
+
+</configuration>
+-->
+
+<meandata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/meandata_file.xsd">
+</meandata>

@@ -1,0 +1,5 @@
+tripinfo.xml
+env/
+data/logs/*
+!data/logs/.gitkeep
+real_data_processors/data_files/*

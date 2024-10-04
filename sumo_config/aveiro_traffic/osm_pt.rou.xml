@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <vType id="pt_bus" vClass="bus"/>
+    <vType id="pt_tram" vClass="tram"/>
+    <vType id="pt_train" vClass="rail"/>
+    <vType id="pt_subway" vClass="subway"/>
+    <vType id="pt_light_rail" vClass="rail_urban"/>
+    <vType id="pt_monorail" vClass="rail_urban"/>
+    <vType id="pt_trolleybus" vClass="bus"/>
+    <vType id="pt_minibus" vClass="bus"/>
+    <vType id="pt_share_taxi" vClass="taxi"/>
+    <vType id="pt_aerialway" vClass="cable_car" length="2.5" width="2" personCapacity="4"/>
+    <vType id="pt_ferry" vClass="ship"/>
+    <route id="pt_bus_Linha_Centro:_Azul:0" color="0,173,239" edges="-541689219" >
+        <stop busStop="-5407623406" duration="20" until="40.0"/> <!-- Rua do Clube dos Galitos -->
+    </route>
+    <route id="pt_bus_Linha_Centro:_Verde:0" color="117,201,43" edges="1280691251" >
+        <stop busStop="5394204044" duration="20" until="40.0"/> <!-- Forca - Túnel -->
+    </route>
+    <route id="pt_bus_L4:0" edges="135643607 494457226#0 494457226#1 494457226#3" >
+        <stop busStop="5366100013" duration="20" until="39.0"/> <!-- R. de Ovar -->
+    </route>
+    <route id="pt_bus_5951:0" edges="494457234" >
+        <stop busStop="5366100012" duration="20" until="39.0"/> <!-- Estação de Aveiro -->
+    </route>
+    <route id="pt_bus_L1:0" color="237,28,36" edges="135643607" >
+        <stop busStop="5366100013" duration="20" until="39.0"/> <!-- R. de Ovar -->
+    </route>
+    <route id="pt_bus_Transdev:_Aveiro_→_Oliveira_de_Azeméis:0" edges="493286528#0 493286528#1 493286528#2 493286528#3 493286528#4 1186574118 135440066 504776814#0 504776814#1 504776814#2 504776814#3 504776815#0 135441167#0 135441167#1 135441157 135441151 694100494 526801778 95574935 95574937#1 694061067#1 694061066#1 1186574168#0 34730711#0 34730711#1 34730711#2 34730711#3 494457234" >
+        <stop busStop="5366099994" duration="20" until="33.0"/> <!-- Avenida da Universidade -->
+    </route>
+    <route id="pt_bus_L11:0" color="101,92,168" edges="135440071#0 -135440071#0 135441168 694040971#1 694040971#2 694100496 694100497#0 42772834#0 42772834#1 42772834#2 42772834#3 42772834#4 526801778 95574935 95574937#1 694061067#1 694061066#1 1186574168#0 34730711#0 34730711#1 34730711#2 34730711#3 494457234 -556492127 -493897271 33654348#0 556492121 686659353 686659365#1 850328478#1 1186574168#0 1186574168#1 34262475#0 34262475#1 34262489#0 34262489#1 34262489#2 694040969 526801775 694100495 135441155 538590273#0 538590273#1 135441161#2 504776812#0 504776812#1 504776812#2 504776812#3 504776813 1186574117 1312446728" >
+        <stop busStop="-1596871196" duration="20" until="161.0"/> <!-- None -->
+    </route>
+    <route id="pt_bus_L11:1" color="101,92,168" edges="33654363#0 33654363#1 55814453 541689217 55814558#0 55814558#1 55814558#2 -135440071#0 135441168 694040971#1 694040971#2 694100496 694100497#0 42772834#0 42772834#1 42772834#2 42772834#3 42772834#4 526801778 95574935 95574937#1 694061067#1 694061066#1 1186574168#0 34730711#0 34730711#1 38697258#0 38697258#1 493897267#1 -146414481 556492127 -556492127 -493897271 33654348#0 556492121 686659353 686659365#1 850328478#1 1186574168#0 1186574168#1 34262475#0 34262475#1 34262489#0 34262489#1 34262489#2 694040969 135441163#0 135441163#1 135441163#2 135441163#3 34262482 34262505 135440071#0 -135440071#0 135441168" >
+        <stop busStop="1596871196" duration="20" until="182.0"/> <!-- None -->
+    </route>
+    <route id="pt_bus_L2:0" color="0,155,223" edges="493286523 135660319#0 135660319#1 135660319#2 135660319#3 135430905#0 135430894#1 135430894#2 34262475#0 34262475#1 34262489#0 34262489#1 34262489#2 694040969 526801775 694100495 135441155 538590273#0 538590273#1 55806518#1 55806518#3 694100500#0 694100500#1 694100500#2 694100500#3 135641862 42772213 135641868 -538194726#1 42772214#0 846798136#0 846798136#1 846798136#2 538194727 538194728 135660331 42772215#9 135643607" >
+        <stop busStop="5366334857" duration="20" until="53.0"/> <!-- Av. Dr. L. Peixinho - CTT -->
+    </route>
+    <route id="pt_bus_L3:0" color="24,41,88" edges="33654363#0 33654363#1 33654363#2 33654363#3 33654363#4 33654363#5 538590273#0 538590273#1 55806518#1 55806518#3 694100500#0 694100500#1 694100500#2 694100500#3 135641862 42772213 135641868 -538194726#1 42772214#0 846798136#0 846798136#1 846798136#2 538194727 538194728 135660331 42772215#9 135643607 494457226#0 494457226#1 -494457226#1 -494457226#0 135643608 42772215#1 42772215#2 42772215#4 42772215#5 42772215#6 42772215#7 135660357#0 135660357#1 -538194728 -538194727 -846798136#2 -846798136#1 -846798136#0 -42772214#1 538194726#0 127003506 694100501#0 135662472#0 -34633995#2 -34633995#1 411775061#0 411775061#1 411775061#2 411775061#3 411775061#4 541678034 135448700 176509605#2 176509605#3 176509605#4 694100496 694100497#0 694100497#1 34262482 34262505 135440071#0 -135440071#0 135441168" >
+        <stop busStop="-5366100014" duration="20" until="189.0"/> <!-- Escolas de Santiago -->
+    </route>
+    <route id="pt_bus_L6:0" color="82,188,188" edges="135440071#0 -135440071#0 135441168 694040971#1 33654363#0 33654363#1 33654363#2 33654363#3 33654363#4 33654363#5 538590273#0 538590273#1 55806518#1 55806518#3 694100500#0 694100500#1 694100500#2 694100500#3 135641862 42772213 135641868 -538194726#1 42772214#0 846798136#0 846798136#1 846798136#2 538194727 538194728 135660331 42772215#9 135643607 494457226#0 494457226#1 -494457226#1 -494457226#0 135643608 42772215#1 42772215#2 42772215#4 42772215#5 42772215#6 42772215#7 42772215#8 42772215#9" >
+        <stop busStop="5366100014" duration="20" until="284.0"/> <!-- Escolas de Santiago -->
+    </route>
+    <route id="pt_bus_L5:0" color="12,89,128" edges="493286523 135660319#0 135660319#1 135660319#2 135660319#3 135430905#0 135430894#1 135430894#2 34262475#0 34262475#1 34262489#0 34262489#1 34262489#2 694040969 526801775 694100495 135441155 538590273#0 538590273#1 55806518#1 55806518#3 694100500#0 694100500#1 694100500#2 694100500#3 135641862 42772213 135641868 -538194726#1 42772214#0 846798136#0 846798136#1 846798136#2 538194727 538194728 135660331 42772215#9 135643607" >
+        <stop busStop="5366334857" duration="20" until="54.0"/> <!-- Av. Dr. L. Peixinho - CTT -->
+    </route>
+    <route id="pt_bus_L7:0" color="178,210,53" edges="135430903 494457234" >
+        <stop busStop="5366100012" duration="20" until="343.0"/> <!-- Estação de Aveiro -->
+        <stop busStop="4857573219" duration="20" until="374.0"/> <!-- gare -->
+    </route>
+    <route id="pt_bus_L3:1" color="24,41,88" edges="-560761988 494457234 -556492127 -493897271 33654348#0 556492121 686659367 686659355 686659361 686659359 686659356 -850328767 -686659364#0 686659370 794561702#0 794561702#1 794561702#2 127003504#0 127003504#1 1312446723 791160569#0 -538053207#2 -538053207#1 -538053207#0 507548446 152348500#1 791113510 538058563 269505417 538058566#0 238113706 118248802#5 118248805 1062948356 135660347 135660350#0 135660350#1 135660354 42772215#7 42772215#8 42772215#9 135643607 494457226#0 -494457226#0" >
+        <stop busStop="-4857573219" duration="20" until="35.0"/> <!-- gare -->
+    </route>
+    <route id="pt_bus_L9:0" color="236,187,187" edges="493286523 135660319#0 135660319#1 135660319#2 135660319#3 135430905#0 135430894#1 135430894#2 34262475#0 34262475#1 34262489#0 34262489#1 34262489#2 694040969 135441163#0 135441163#1 135441163#2 135441163#3 34262482 34262505 135440071#0 135440071#1 239129036#0 239129036#1 1077152280 541716009 556280454 556280455 400178787#0 400178787#1 541716003#1 541716001 400178754 -541716009 -1077152280 -239129036#1 -239129036#0 -135440071#1 -135440071#0 135441168 694040971#1 694040971#2 694100496 34262530 243526018#0 243526018#3 127003555 -127003472#2 -127003472#1 -127003472#0 135641873#0 135641873#1 -1126924947 34633995#1 34633995#2 135641880 694100502 1312432759 42772213 135641868 -538194726#1 42772214#0 846798136#0 846798136#1 846798136#2 538194727 538194728 135660331" >
+        <stop busStop="5366334857" duration="20" until="53.0"/> <!-- Av. Dr. L. Peixinho - CTT -->
+        <stop busStop="-392954393" duration="20" until="220.0"/> <!-- R. Caçadores 10 - Misericórdia -->
+        <stop busStop="5368271759" duration="20" until="298.0"/> <!-- None -->
+    </route>
+    <route id="pt_bus_L11:2" color="101,92,168" edges="694100496 694100497#0 42772834#0 42772834#1 42772834#2 42772834#3 42772834#4 526801778 95574935 95574937#1 694061067#1 694061066#1 1186574168#0 34730711#0 34730711#1 38697258#0 38697258#1 493897267#1 -146414481 556492127 -556492127 -493897271 33654348#0 556492121 686659353 686659365#1 850328478#1 1186574168#0 1186574168#1 34262475#0 34262475#1 34262489#0 34262489#1 34262489#2 694040969 135441163#0 135441163#1 135441163#2 135441163#3 34262482 34262505 135440071#0 -135440071#0 135441168" >
+        <stop busStop="1596871196" duration="20" until="137.0"/> <!-- None -->
+    </route>
+    <route id="pt_bus_L6:1" edges="135643607 494457226#0 -494457226#0 135643608 42772215#1 42772215#2 42772215#4 42772215#5 111760345 111759051#0 111759051#1 135660351 549206262 152282270#1 135672088 135672084#0 135672084#1 507548440 131117149 131117151#0 131117151#1 549319296#0 158029674 158029522 559442191#0 559442191#1 559442191#2 559442191#3" >
+        <stop busStop="5366100013" duration="20" until="44.0"/> <!-- R. de Ovar -->
+    </route>
+    <route id="pt_bus_L10:0" color="169,185,133" edges="493286523 135660319#0 135660319#1 135660319#2 135660319#3 135660319#4 182176861#1 1263512657#0 1263512657#1 1209354578#1 1209354578#2 1209354580#0 1209354580#1 135660320#0 135660320#1 917634355 917634354 1209354575 496434096 1078551827 269974952 1209354576 541716005 400178787#0 400178787#1 541716003#1 541716001 400178754 -541716009 -1077152280 -239129036#1 -239129036#0 -135440071#1 -135440071#0 135441168 694040971#1 694040971#2 694100496 34262530 243526018#0 243526018#3 127003555 -127003472#2 -127003472#1 -127003472#0 135641873#0 135641873#1 -1126924947 34633995#1 34633995#2 135641880 694100502 1312432759 42772213 135641868 -538194726#1 42772214#0 846798136#0 846798136#1 846798136#2 538194727 538194728 135660331" >
+        <stop busStop="5366334857" duration="20" until="53.0"/> <!-- Av. Dr. L. Peixinho - CTT -->
+        <stop busStop="7882258878" duration="20" until="187.0"/> <!-- None -->
+        <stop busStop="-392954393" duration="20" until="268.0"/> <!-- R. Caçadores 10 - Misericórdia -->
+        <stop busStop="5368271759" duration="20" until="346.0"/> <!-- None -->
+    </route>
+    <route id="pt_bus_L13:0" color="73,140,176" edges="358981123 144462183 34039353#0 34039353#1 34039353#2 144458732 -541689237 -41403156 541689229 541689234 -541689219 -541716008 -135440083 135440079 400178754 -541716009 -1077152280 -239129036#1 -239129036#0 -135440071#1 -135440071#0 135441168 694040971#1 694040971#2 694100496 694100497#0 42772834#0 42772834#1 42772834#2 42772834#3 42772834#4 526801778 95574935 95574937#1 694061067#1 694061066#1 1186574168#0 34730711#0 34730711#1 34730711#2 34730711#3 494457234" >
+        <stop busStop="-5407623406" duration="20" until="91.0"/> <!-- Rua do Clube dos Galitos -->
+    </route>
+    <route id="pt_bus_L1:1" color="237,28,36" edges="135643607 494457226#0 -494457226#0 135643608 42772215#1 42772215#2 42772215#4 42772215#5 42772215#6 42772215#7 135660357#0 135660357#1 -538194728 -538194727 -846798136#2 -846798136#1 -846798136#0 -42772214#1 538194726#0 127003506 694100501#0 135662472#0 -34633995#2 -34633995#1 411775061#0 411775061#1 411775061#2 411775061#3 411775061#4 541678034 135448700 176509605#2 176509605#3 176509605#4 694100496 694100497#0 42772834#0 42772834#1 42772834#2 42772834#3 42772834#4 526801778 95574935 95574937#1 694061067#1 694061066#1 1186574168#0 34730711#0 34730711#1 34730711#2 34730711#3 494457234" >
+        <stop busStop="5366100013" duration="20" until="38.0"/> <!-- R. de Ovar -->
+    </route>
+    <route id="pt_bus_L2:1" color="0,155,223" edges="135643607 494457226#0 -494457226#0 135643608 42772215#1 42772215#2 42772215#4 42772215#5 42772215#6 42772215#7 135660357#0 135660357#1 -538194728 -538194727 -846798136#2 -846798136#1 -846798136#0 -42772214#1 538194726#0 127003506 694100501#0 135662472#0 -34633995#2 -34633995#1 411775061#0 411775061#1 411775061#2 411775061#3 411775061#4 541678034 135448700 176509605#2 176509605#3 176509605#4 694100496 694100497#0 42772834#0 42772834#1 42772834#2 42772834#3 42772834#4 526801778 95574935 95574937#1 694061067#1 694061066#1 1186574168#0 34730711#0 34730711#1 34730711#2 34730711#3 494457234" >
+        <stop busStop="5366100013" duration="20" until="46.0"/> <!-- R. de Ovar -->
+    </route>
+    <route id="pt_bus_L13:3" color="73,140,176" edges="358981123 494227161 560794010 182176867 658633126 1092110078 1092110077#0 1092110077#1 1092110077#2 1092110083 -539599342#0 815988679#0 815988679#1 815988679#2 815988679#4 815988679#5 815988679#6 131114431 1116525809#0 1116525809#1 33654371#1 38628967#0 38628967#1 38628967#2 538984333 538984334 493286528#2 493286528#3 493286528#4 1186574118 135440066 504776814#0 504776814#1 504776814#2 504776814#3 504776815#0 135441167#0 135441167#1 135441157 135441151 694100494 526801778 95574935 95574937#1 694061067#1 694061066#1 1186574168#0 34730711#0 34730711#1 34730711#2 34730711#3 494457234" >
+        <stop busStop="5366100005" duration="20" until="132.0"/> <!-- Hospital / Universidade -->
+    </route>
+    <route id="pt_bus_L13:1" color="73,140,176" edges="494457234 135660319#3 135430905#0 135430894#1 135430894#2 34262475#0 34262475#1 34262489#0 34262489#1 34262489#2 694040969 135441163#0 135441163#1 135441163#2 135441163#3 34262482 34262505 135440071#0 135440071#1 239129036#0 239129036#1 1077152280 541716009 556280454 556280455 400178787#0 400178787#1 541716003#1 31865796 135440083 541716008 541689219 541689232 541689235 541689236#1 41403155 541689237 121252904 34039353#4 34262404 135424863 1315059334#1 497767445 497767446" >
+        <stop busStop="5366100012" duration="20" until="40.0"/> <!-- Estação de Aveiro -->
+        <stop busStop="4857573219" duration="20" until="71.0"/> <!-- gare -->
+        <stop busStop="5366334857" duration="20" until="407.0"/> <!-- Av. Dr. L. Peixinho - CTT -->
+    </route>
+    <route id="pt_bus_L9:1" color="236,187,187" edges="-560761988 494457234 -556492127 -493897271 33654348#0 493897267#1 -146414481 556492127 -560761988 494457234 -556492127 -493897271 33654348#0 556492121 686659353 686659365#1 850328478#1 1186574168#0 1186574168#1 -135430894#2 -135430894#1 694040966#3 694040966#4" >
+        <stop busStop="-5366100012" duration="20" until="36.0"/> <!-- Estação de Aveiro -->
+        <stop busStop="-4857573219" duration="20" until="193.0"/> <!-- gare -->
+        <stop busStop="5366334858" duration="20" until="717.0"/> <!-- Av. Dr. L. Peixinho - CTT -->
+    </route>
+    <route id="pt_bus_5957:0" edges="494457234 -556492127 -493897271 33654348#0 493897267#1 -146414481 556492127 -560761988 494457234" >
+        <stop busStop="4857573219" duration="20" until="374.0"/> <!-- gare -->
+        <stop busStop="5366100012" duration="20" until="780.0"/> <!-- Estação de Aveiro -->
+    </route>
+    <route id="pt_bus_L13:2" color="73,140,176" edges="494457234 -556492127 -493897271 33654348#0 493897267#1 -146414481 556492127 -560761988 494457234 135660319#3 135430905#0 135430894#1 135430894#2 34262475#0 34262475#1 34262489#0 34262489#1 34262489#2 694040969 526801775 694100495 135441155 538590273#0 538590273#1 135441161#2 504776812#0 504776812#1 504776812#2 504776812#3 504776813 1186574117 131114468 -815988679#6 -815988679#5 -815988679#4 -815988679#2 -815988679#1 -815988679#0 -539599343#0 1092110082 1312446729 1092110086#0 1092110086#1 1092110079 -135663878 -182176867 34039298#0 34039298#1" >
+        <stop busStop="4857573219" duration="20" until="403.0"/> <!-- gare -->
+        <stop busStop="5366100012" duration="20" until="507.0"/> <!-- Estação de Aveiro -->
+        <stop busStop="5366334857" duration="20" until="844.0"/> <!-- Av. Dr. L. Peixinho - CTT -->
+    </route>
+    <flow id="pt_bus_Linha_Centro:_Azul:0" type="pt_bus" route="pt_bus_Linha_Centro:_Azul:0" begin="15.0" end="2015.0" period="600" line="Linha_Centro:_Azul:0" >
+        <param key="name" value="Linha Centro: Azul"/>
+        <param key="completeness" value="0.14"/>
+    </flow>
+    <flow id="pt_bus_Linha_Centro:_Verde:0" type="pt_bus" route="pt_bus_Linha_Centro:_Verde:0" begin="17.0" end="2017.0" period="600" line="Linha_Centro:_Verde:0" >
+        <param key="name" value="Linha Centro: Verde"/>
+        <param key="completeness" value="0.25"/>
+    </flow>
+    <flow id="pt_bus_L4:0" type="pt_bus" route="pt_bus_L4:0" begin="15.0" end="2015.0" period="600" line="L4:0" >
+        <param key="name" value="Linha 4: Aveiro =&gt; Carregal"/>
+        <param key="completeness" value="0.50"/>
+    </flow>
+    <flow id="pt_bus_5951:0" type="pt_bus" route="pt_bus_5951:0" begin="52.0" end="2052.0" period="600" line="5951:0" >
+        <param key="name" value="Autocarro 5951: Aveiro =&gt; Costa Nova"/>
+        <param key="completeness" value="0.03"/>
+    </flow>
+    <flow id="pt_bus_L1:0" type="pt_bus" route="pt_bus_L1:0" begin="131.0" end="2131.0" period="600" line="L1:0" >
+        <param key="name" value="Linha 1: Cacia (EB23) =&gt; Aveiro (Santiago) [via Sarrazola]"/>
+        <param key="completeness" value="0.01"/>
+    </flow>
+    <flow id="pt_bus_Transdev:_Aveiro_→_Oliveira_de_Azeméis:0" type="pt_bus" route="pt_bus_Transdev:_Aveiro_→_Oliveira_de_Azeméis:0" begin="3.0" end="2003.0" period="600" line="Transdev:_Aveiro_→_Oliveira_de_Azeméis:0" >
+        <param key="name" value="Transdev: Aveiro → Oliveira de Azeméis"/>
+        <param key="completeness" value="0.20"/>
+    </flow>
+    <flow id="pt_bus_L11:0" type="pt_bus" route="pt_bus_L11:0" begin="93.0" end="2093.0" period="600" line="L11:0" >
+        <param key="name" value="Linha 11: Estação =&gt; Universidade [via ISCAUA] - Dias Úteis"/>
+        <param key="completeness" value="0.04"/>
+    </flow>
+    <flow id="pt_bus_L11:1" type="pt_bus" route="pt_bus_L11:1" begin="119.0" end="2119.0" period="600" line="L11:1" >
+        <param key="name" value="Linha 11: Estação =&gt; Universidade [via Crasto] - Dias Úteis"/>
+        <param key="completeness" value="0.03"/>
+    </flow>
+    <flow id="pt_bus_L2:0" type="pt_bus" route="pt_bus_L2:0" begin="132.0" end="2132.0" period="600" line="L2:0" >
+        <param key="name" value="Linha 2: Cacia (Norte) =&gt; Aveiro (Santiago)"/>
+        <param key="completeness" value="0.02"/>
+    </flow>
+    <flow id="pt_bus_L3:0" type="pt_bus" route="pt_bus_L3:0" begin="133.0" end="2133.0" period="600" line="L3:0" >
+        <param key="name" value="Linha 3: Cacia (EB23) =&gt; Aveiro (Santiago) [via Taboeira]"/>
+        <param key="completeness" value="0.01"/>
+    </flow>
+    <flow id="pt_bus_L6:0" type="pt_bus" route="pt_bus_L6:0" begin="201.0" end="2201.0" period="600" line="L6:0" >
+        <param key="name" value="Linha 6: Oliveirinha =&gt; Aveiro (via Granja)"/>
+        <param key="completeness" value="0.01"/>
+    </flow>
+    <flow id="pt_bus_L5:0" type="pt_bus" route="pt_bus_L5:0" begin="204.0" end="2204.0" period="600" line="L5:0" >
+        <param key="name" value="Linha 5: Colégio D. José =&gt; Aveiro [via Solposto]"/>
+        <param key="completeness" value="0.05"/>
+    </flow>
+    <flow id="pt_bus_L7:0" type="pt_bus" route="pt_bus_L7:0" begin="165.0" end="2165.0" period="600" line="L7:0" >
+        <param key="name" value="Linha 7: Aveiro =&gt; Colégio D. José [via Quinta do Torto]"/>
+        <param key="completeness" value="1.00"/>
+    </flow>
+    <flow id="pt_bus_L3:1" type="pt_bus" route="pt_bus_L3:1" begin="389.0" end="2389.0" period="600" line="L3:1" >
+        <param key="name" value="Linha 3: Aveiro (Santiago) =&gt; Cacia (EB23) [via Taboeira]"/>
+        <param key="completeness" value="0.01"/>
+    </flow>
+    <flow id="pt_bus_L9:0" type="pt_bus" route="pt_bus_L9:0" begin="253.0" end="2253.0" period="600" line="L9:0" >
+        <param key="name" value="Linha 9: Esgueira =&gt; Aradas"/>
+        <param key="completeness" value="0.06"/>
+    </flow>
+    <flow id="pt_bus_L11:2" type="pt_bus" route="pt_bus_L11:2" begin="406.0" end="2406.0" period="600" line="L11:2" >
+        <param key="name" value="Linha 11: Estação =&gt; Universidade - Domingos"/>
+        <param key="completeness" value="0.03"/>
+    </flow>
+    <flow id="pt_bus_L6:1" type="pt_bus" route="pt_bus_L6:1" begin="434.0" end="2434.0" period="600" line="L6:1" >
+        <param key="name" value="Linha 6: Aveiro =&gt; Oliveirinha (via Granja)"/>
+        <param key="completeness" value="0.01"/>
+    </flow>
+    <flow id="pt_bus_L10:0" type="pt_bus" route="pt_bus_L10:0" begin="303.0" end="2303.0" period="600" line="L10:0" >
+        <param key="name" value="Linha 10: Esgueira =&gt; Verba [via Nariz]"/>
+        <param key="completeness" value="0.06"/>
+    </flow>
+    <flow id="pt_bus_L13:0" type="pt_bus" route="pt_bus_L13:0" begin="326.0" end="2326.0" period="600" line="L13:0" >
+        <param key="name" value="Linha 13: Forte da Barra =&gt; Aveiro (Estação)"/>
+        <param key="completeness" value="0.10"/>
+    </flow>
+    <flow id="pt_bus_L1:1" type="pt_bus" route="pt_bus_L1:1" begin="353.0" end="2353.0" period="600" line="L1:1" >
+        <param key="name" value="Linha 1: Aveiro (Santiago) =&gt; Cacia (EB23) [via Sarrazola]"/>
+        <param key="completeness" value="0.01"/>
+    </flow>
+    <flow id="pt_bus_L2:1" type="pt_bus" route="pt_bus_L2:1" begin="383.0" end="2383.0" period="600" line="L2:1" >
+        <param key="name" value="Linha 2: Aveiro (Santiago) =&gt; Cacia (Norte)"/>
+        <param key="completeness" value="0.02"/>
+    </flow>
+    <flow id="pt_bus_L13:3" type="pt_bus" route="pt_bus_L13:3" begin="535.0" end="2535.0" period="600" line="L13:3" >
+        <param key="name" value="Linha 13: Forte da Barra =&gt; Aveiro (Estação) [via EB 23 João Afonso]"/>
+        <param key="completeness" value="0.05"/>
+    </flow>
+    <flow id="pt_bus_L13:1" type="pt_bus" route="pt_bus_L13:1" begin="540.0" end="2540.0" period="600" line="L13:1" >
+        <param key="name" value="Linha 13: Aveiro (Estação) =&gt; Forte da Barra"/>
+        <param key="completeness" value="0.27"/>
+    </flow>
+    <flow id="pt_bus_L9:1" type="pt_bus" route="pt_bus_L9:1" begin="441.0" end="2441.0" period="600" line="L9:1" >
+        <param key="name" value="Linha 9: Aradas =&gt; Esgueira"/>
+        <param key="completeness" value="0.05"/>
+    </flow>
+    <flow id="pt_bus_5957:0" type="pt_bus" route="pt_bus_5957:0" begin="612.0" end="2612.0" period="600" line="5957:0" >
+        <param key="name" value="Autocarro 5952: Aveiro =&gt; Praia de Mira"/>
+        <param key="completeness" value="1.00"/>
+    </flow>
+    <flow id="pt_bus_L13:2" type="pt_bus" route="pt_bus_L13:2" begin="546.0" end="2546.0" period="600" line="L13:2" >
+        <param key="name" value="Linha 13: Aveiro (Estação) =&gt; Forte da Barra [via EB23 João Afonso]"/>
+        <param key="completeness" value="0.12"/>
+    </flow>
+</routes>

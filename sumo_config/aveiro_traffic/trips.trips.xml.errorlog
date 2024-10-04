@@ -1,0 +1,16 @@
+Warning: No connection between edge '135430903' and edge '494457234' found.
+Warning: Vehicle '10_bus_L7:0' has no valid route from edge '135430903' to stop edge '494457234'.
+Warning: busStop '-392954393' on lane '-1077152280_0' is too short for vehicle '13_bus_L9:0'.
+Warning: busStop '7882258878' on lane '1078551827_0' is too short for vehicle '14_bus_L10:0'.
+Warning: No connection between edge '494457234' and edge '135660319#3' found.
+Warning: Vehicle '23_bus_L13:2' has no valid route from edge '494457234' to stop edge '135660319#3'.
+Warning: No connection between edge '494457234' and edge '135660319#3' found.
+Warning: Vehicle '22_bus_L13:1' has no valid route from edge '494457234' to stop edge '135660319#3'.
+Warning: Teleporting vehicle '10_bus_L7:0'; waited too long (wrong lane), lane='135430903_0', time=472.00.
+Warning: Vehicle '10_bus_L7:0' ends teleporting on edge '494457234', time=472.00.
+Warning: Teleporting vehicle '15_bus_L13:0'; waited too long (jam), lane='34730711#3_1', time=900.00.
+Warning: Teleporting vehicle '22_bus_L13:1'; waited too long (wrong lane), lane='494457234_1', time=913.00.
+Warning: Vehicle '15_bus_L13:0' teleports beyond arrival edge '494457234', time=913.00.
+Warning: Vehicle '22_bus_L13:1' ends teleporting on edge '135660319#3', time=913.00.
+Warning: Teleporting vehicle '23_bus_L13:2'; waited too long (wrong lane), lane='494457234_1', time=1356.00.
+Warning: Vehicle '23_bus_L13:2' ends teleporting on edge '135660319#3', time=1356.00.

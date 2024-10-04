@@ -1,0 +1,58 @@
+<additional>
+    <additional>
+        <!-- Detector 1 -->
+        <laneAreaDetector id="TLS1_Det1" lane="-55806518#2_1" file="NUL" endPos="-1" length="60" friendlyPos="x"/>
+        <laneAreaDetector id="TLS1_Det2" lane="538590273#1_1" file="NUL" endPos="-1" length="60" friendlyPos="x"/>
+        <laneAreaDetector id="TLS1_Det3" lane="538590273#1_2" file="NUL" endPos="-1" length="60" friendlyPos="x"/>
+        <laneAreaDetector id="TLS1_Det4" lane="55805248#5_1" file="NUL" endPos="-1" length="60" friendlyPos="x"/>
+        <laneAreaDetector id="TLS1_Det5" lane="504776815#0_1" file="NUL" endPos="-1" length="60" friendlyPos="x"/>
+        <laneAreaDetector id="TLS1_Det6" lane="504776815#0_2" file="NUL" endPos="-1" length="60" friendlyPos="x"/>
+
+        <!-- Detector 2 -->
+        <laneAreaDetector id="TLS2_Det1" lane="-556492124#2_1" file="NUL" endPos="-1" length="60" friendlyPos="x"/>
+        <laneAreaDetector id="TLS2_Det2" lane="1126924948#0_1" file="NUL" endPos="-1" length="40" friendlyPos="x"/>
+        <laneAreaDetector id="TLS2_Det3" lane="1126924948#0_2" file="NUL" endPos="-1" length="60" friendlyPos="x"/>
+        <laneAreaDetector id="TLS2_Det4" lane="-135448695#1_1" file="NUL" endPos="-1" length="60" friendlyPos="x"/>
+        <laneAreaDetector id="TLS2_Det5" lane="243526018#6_1" file="NUL" endPos="-1" length="60" friendlyPos="x"/>
+        
+        <!-- Detector 3 -->
+        <laneAreaDetector id="TLS3_Det1" lane="135667682#0_1" file="NUL" endPos="-1" length="60" friendlyPos="x"/>
+        <laneAreaDetector id="TLS3_Det2" lane="135667682#0_2" file="NUL" endPos="-1" length="60" friendlyPos="x"/>
+        <laneAreaDetector id="TLS3_Det3" lane="-42772214#1_1" file="NUL" endPos="-1" length="60" friendlyPos="x"/>
+        <laneAreaDetector id="TLS3_Det4" lane="-538194726#1_1" file="NUL" endPos="-1" length="60" friendlyPos="x"/>
+        
+    
+        <!-- Data collection -->
+        <laneData 
+            id="TLS_emissions" 
+            aggregate="true" 
+            writeAttributes="CO2_abs" 
+            edges="-55806518#2 538590273#1 55805248#5 504776815#0 -556492124#2 1126924948#0 -135448695#1 243526018#6 135667682#0 -42772214#1 -538194726#1"
+            type="emissions" 
+            period="60" 
+            file="../../data/emissions.xml" 
+            excludeEmpty="true"
+        />
+        <laneData 
+            id="TLS_waitingTime" 
+            aggregate="true" 
+            writeAttributes="waitingTime" 
+            edges="-55806518#2 538590273#1 55805248#5 504776815#0 -556492124#2 1126924948#0 -135448695#1 243526018#6 135667682#0 -42772214#1 -538194726#1"
+            period="60" 
+            file="../../data/waitingTime.xml" 
+            excludeEmpty="true"
+        />
+        <laneData 
+            id="TLS_publicTransport" 
+            aggregate="true" 
+            writeAttributes="waitingTime" 
+            vTypes="pt_bus"
+            edges="-55806518#2 538590273#1 55805248#5 504776815#0 -556492124#2 1126924948#0 -135448695#1 243526018#6 135667682#0 -42772214#1 -538194726#1"
+            period="60" 
+            file="../../data/publicTransport.xml" 
+            excludeEmpty="true"
+        />
+   
+    
+    </additional>
+</additional>

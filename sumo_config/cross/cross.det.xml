@@ -1,0 +1,7 @@
+
+<additional>
+    <laneAreaDetector id="TLS1_Det1" lane="-EE_0" endPos="-1" file="NUL" length="60" friendlyPos="x"/>
+    <laneAreaDetector id="TLS1_Det2" lane="EW_0" endPos="-1" file="NUL" length="60" friendlyPos="x"/>
+    <laneAreaDetector id="TLS1_Det3" lane="-EN_0" endPos="-1" file="NUL" length="60" friendlyPos="x"/>
+    <laneAreaDetector id="TLS1_Det4" lane="ES_0" endPos="-1" file="NUL" length="60" friendlyPos="x"/>
+</additional>

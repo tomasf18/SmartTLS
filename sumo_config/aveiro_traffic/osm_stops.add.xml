@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
+    <busStop id="-1596871196" lane="-493897271_1" startPos="0.00" endPos="15.00" friendlyPos="true" lines="L11"/>
+    <busStop id="-392954393" name="R. Caçadores 10 - Misericórdia" lane="-1077152280_0" startPos="0.00" endPos="4.41" friendlyPos="true" lines="L9 L10">
+        <access lane="-239129036#1_0" pos="0.00" length="15.26" friendlyPos="1"/>
+        <access lane="135440086_0" pos="52.55" length="11.22" friendlyPos="1"/>
+        <access lane="135440098#0_0" pos="6.19" length="34.46" friendlyPos="1"/>
+        <access lane="135665040#0_0" pos="25.10" length="9.72" friendlyPos="1"/>
+        <access lane="239129036#1_0" pos="17.89" length="13.92" friendlyPos="1"/>
+    </busStop>
+    <busStop id="-4857573219" name="gare" lane="-560761988_1" startPos="2.22" endPos="17.22" friendlyPos="true" lines="L3 L9"/>
+    <busStop id="-5366100012" name="Estação de Aveiro" lane="-560761988_1" startPos="2.39" endPos="17.39" friendlyPos="true" lines="L9"/>
+    <busStop id="-5366100014" name="Escolas de Santiago" lane="-494457226#1_1" startPos="8.02" endPos="23.02" friendlyPos="true" lines="L3"/>
+    <busStop id="-5407623406" name="Rua do Clube dos Galitos" lane="-541689219_1" startPos="15.73" endPos="30.73" friendlyPos="true" lines="L13"/>
+    <busStop id="11204909039" name="Av. Dr. L. Peixinho - Capitania" lane="1209354575_0" startPos="0.00" endPos="15.00" friendlyPos="true">
+        <access lane="1261975608_0" pos="63.52" length="13.69" friendlyPos="1"/>
+        <access lane="496434096_0" pos="0.00" length="46.15" friendlyPos="1"/>
+        <access lane="496434097_0" pos="0.00" length="25.36" friendlyPos="1"/>
+        <access lane="694040972#1_0" pos="113.76" length="25.97" friendlyPos="1"/>
+        <access lane="917634354_0" pos="74.22" length="17.05" friendlyPos="1"/>
+    </busStop>
+    <busStop id="12207099992" name="R. Bombeiros Velhos" lane="556303397#1_1" startPos="0.00" endPos="15.00" friendlyPos="true"/>
+    <busStop id="12207099993" name="R. Bombeiros Velhos" lane="493286526_1" startPos="17.72" endPos="32.72" friendlyPos="true"/>
+    <busStop id="1596871196" lane="-146414481_1" startPos="153.36" endPos="168.36" friendlyPos="true" lines="L11"/>
+    <busStop id="1618868025" name="Guarda Fiscal / ISCIA" lane="148818692#0_0" startPos="44.65" endPos="59.65" friendlyPos="true">
+        <access lane="-158029522_0" pos="0.00" length="97.11" friendlyPos="1"/>
+        <access lane="-559442191#0_0" pos="94.56" length="97.19" friendlyPos="1"/>
+        <access lane="158029522_0" pos="112.05" length="83.05" friendlyPos="1"/>
+        <access lane="559442191#0_0" pos="0.00" length="83.15" friendlyPos="1"/>
+        <access lane="959153481_0" pos="131.34" length="128.50" friendlyPos="1"/>
+    </busStop>
+    <busStop id="1799473677" name="Av. Dr. L. Peixinho - Capitania" lane="694061064_0" startPos="22.30" endPos="37.30" friendlyPos="true">
+        <access lane="-496434096_0" pos="34.00" length="45.00" friendlyPos="1"/>
+        <access lane="1261975608_0" pos="64.08" length="26.07" friendlyPos="1"/>
+        <access lane="496434097_0" pos="0.00" length="17.79" friendlyPos="1"/>
+        <access lane="694040972#1_0" pos="113.26" length="13.59" friendlyPos="1"/>
+        <access lane="917634354_0" pos="74.22" length="27.17" friendlyPos="1"/>
+    </busStop>
+    <busStop id="1870229786" lane="789117555#1_1" startPos="0.00" endPos="8.25" friendlyPos="true"/>
+    <busStop id="4222131879" lane="172557275_0" startPos="79.77" endPos="94.77" friendlyPos="true">
+        <access lane="1282212407#1_0" pos="63.30" length="16.39" friendlyPos="1"/>
+        <access lane="1282212442_0" pos="0.00" length="37.37" friendlyPos="1"/>
+        <access lane="1282212443#5_0" pos="85.23" length="38.22" friendlyPos="1"/>
+        <access lane="422461215#1_0" pos="63.64" length="13.75" friendlyPos="1"/>
+        <access lane="54754789#0_0" pos="132.21" length="9.73" friendlyPos="1"/>
+    </busStop>
+    <busStop id="4857573219" name="gare" lane="494457234_1" startPos="25.17" endPos="40.17" friendlyPos="true" lines="L7"/>
+    <busStop id="5237682248" lane="34262530_1" startPos="55.98" endPos="70.98" friendlyPos="true"/>
+    <busStop id="5366099991" name="ISCAUA" lane="493286527#1_1" startPos="41.79" endPos="56.79" friendlyPos="true"/>
+    <busStop id="5366099992" name="ISCAUA" lane="493286527#1_1" startPos="25.36" endPos="40.36" friendlyPos="true"/>
+    <busStop id="5366099993" name="Avenida da Universidade" lane="493286524#1_1" startPos="176.41" endPos="191.41" friendlyPos="true"/>
+    <busStop id="5366099994" name="Avenida da Universidade" lane="493286528#0_1" startPos="0.00" endPos="15.00" friendlyPos="true" lines="Transdev: Aveiro → Oliveira de Azeméis"/>
+    <busStop id="5366100005" name="Hospital / Universidade" lane="38628967#1_1" startPos="14.14" endPos="29.14" friendlyPos="true" lines="L13"/>
+    <busStop id="5366100006" name="Hospital / Universidade" lane="493286528#4_1" startPos="8.59" endPos="23.59" friendlyPos="true"/>
+    <busStop id="5366100007" name="Av. Santa Joana" lane="176509605#0_1" startPos="0.00" endPos="14.98" friendlyPos="true"/>
+    <busStop id="5366100008" name="Av. Santa Joana" lane="33654363#4_1" startPos="18.16" endPos="33.16" friendlyPos="true"/>
+    <busStop id="5366100009" name="R. Caçadores 10 - Sé" lane="135440071#0_1" startPos="81.01" endPos="96.01" friendlyPos="true"/>
+    <busStop id="5366100010" name="R. Caçadores 10 - Misericórdia" lane="1077152280_0" startPos="0.00" endPos="4.08" friendlyPos="true">
+        <access lane="-239129036#1_0" pos="0.00" length="20.57" friendlyPos="1"/>
+        <access lane="135440086_0" pos="46.81" length="12.33" friendlyPos="1"/>
+        <access lane="135440098#0_0" pos="6.19" length="32.25" friendlyPos="1"/>
+        <access lane="135665040#0_0" pos="28.65" length="8.90" friendlyPos="1"/>
+        <access lane="239129036#1_0" pos="17.89" length="18.41" friendlyPos="1"/>
+    </busStop>
+    <busStop id="5366100012" name="Estação de Aveiro" lane="494457234_1" startPos="25.00" endPos="40.00" friendlyPos="true" lines="5951 L7 L13 5957"/>
+    <busStop id="5366100013" name="R. de Ovar" lane="135643607_1" startPos="16.92" endPos="31.92" friendlyPos="true" lines="L4 L1 L2 L6"/>
+    <busStop id="5366100014" name="Escolas de Santiago" lane="494457226#1_1" startPos="26.09" endPos="41.09" friendlyPos="true" lines="L6"/>
+    <busStop id="5366100015" name="Mercado de Santiago" lane="556303396#0_1" startPos="57.93" endPos="72.93" friendlyPos="true"/>
+    <busStop id="5366334852" name="R. Nova de Santiago" lane="494457228#1_0" startPos="49.60" endPos="64.60" friendlyPos="true">
+        <access lane="-157715907_0" pos="0.00" length="23.82" friendlyPos="1"/>
+        <access lane="135643609#0_0" pos="73.68" length="42.33" friendlyPos="1"/>
+        <access lane="135643609#1_0" pos="3.82" length="32.31" friendlyPos="1"/>
+        <access lane="135643610#2_0" pos="61.41" length="36.08" friendlyPos="1"/>
+        <access lane="157715907_0" pos="6.51" length="12.98" friendlyPos="1"/>
+    </busStop>
+    <busStop id="5366334855" name="Av. Dr. L. Peixinho - Oita" lane="694040966#0_1" startPos="51.51" endPos="66.51" friendlyPos="true"/>
+    <busStop id="5366334857" name="Av. Dr. L. Peixinho - CTT" lane="135660319#3_1" startPos="3.72" endPos="18.72" friendlyPos="true" lines="L2 L5 L9 L10 L13"/>
+    <busStop id="5366334858" name="Av. Dr. L. Peixinho - CTT" lane="694040966#4_1" startPos="10.13" endPos="25.13" friendlyPos="true"/>
+    <busStop id="5367963787" lane="422461215#1_1" startPos="55.13" endPos="70.13" friendlyPos="true"/>
+    <busStop id="5367963788" name="Universidade - Reitoria" lane="172557273_1" startPos="0.00" endPos="15.00" friendlyPos="true"/>
+    <busStop id="5367963789" name="Universidade - Santiago" lane="1122735505#2_1" startPos="3.72" endPos="18.72" friendlyPos="true"/>
+    <busStop id="5367963790" name="Universidade - Santiago" lane="54754790#0_1" startPos="30.34" endPos="45.34" friendlyPos="true"/>
+    <busStop id="5367963791" lane="846798136#0_1" startPos="3.41" endPos="18.41" friendlyPos="true"/>
+    <busStop id="5367963792" lane="846798136#1_1" startPos="27.42" endPos="42.42" friendlyPos="true"/>
+    <busStop id="5367963793" name="R. Dr. Mário Sacramento" lane="846798136#2_1" startPos="112.67" endPos="127.67" friendlyPos="true"/>
+    <busStop id="5367963794" name="R. Dr. Mário Sacramento" lane="538194727_1" startPos="12.53" endPos="27.53" friendlyPos="true"/>
+    <busStop id="5368271756" lane="1126924947_1" startPos="29.51" endPos="44.51" friendlyPos="true"/>
+    <busStop id="5368271757" lane="34634081#0_1" startPos="8.46" endPos="23.46" friendlyPos="true"/>
+    <busStop id="5368271759" lane="34262530_1" startPos="26.34" endPos="41.34" friendlyPos="true" lines="L9 L10"/>
+    <busStop id="5368271762" lane="243526018#5_1" startPos="37.67" endPos="52.67" friendlyPos="true"/>
+    <busStop id="5368271763" lane="243526018#5_1" startPos="9.10" endPos="24.10" friendlyPos="true"/>
+    <busStop id="5394204041" name="Forca - Loja do Cidadão" lane="127003541#1_1" startPos="43.32" endPos="58.32" friendlyPos="true"/>
+    <busStop id="5394204042" name="Forca - Loja do Cidadão" lane="127003542#1_1" startPos="16.19" endPos="31.19" friendlyPos="true"/>
+    <busStop id="5394204044" name="Forca - Túnel" lane="1280691251_1" startPos="33.76" endPos="48.76" friendlyPos="true"/>
+    <busStop id="5394204045" name="Pontão Nó Central" lane="135896664#1_0" startPos="87.45" endPos="102.45" friendlyPos="true">
+        <access lane="118248798#0_0" pos="0.00" length="42.63" friendlyPos="1"/>
+        <access lane="118248798#1_0" pos="0.00" length="126.28" friendlyPos="1"/>
+        <access lane="507548440_0" pos="404.88" length="38.17" friendlyPos="1"/>
+        <access lane="911051622_0" pos="0.00" length="127.42" friendlyPos="1"/>
+        <access lane="911051623_0" pos="47.59" length="22.37" friendlyPos="1"/>
+    </busStop>
+    <busStop id="5394204046" name="Pontão Nó Central" lane="911051623_1" startPos="42.03" endPos="57.03" friendlyPos="true"/>
+    <busStop id="5394204049" name="Capela de São Geraldo" lane="559442191#2_1" startPos="13.73" endPos="28.73" friendlyPos="true"/>
+    <busStop id="5395534122" name="Areais" lane="127003483#1_0" startPos="51.14" endPos="66.14" friendlyPos="true">
+        <access lane="-333986574_0" pos="507.18" length="239.02" friendlyPos="1"/>
+        <access lane="333986574_0" pos="148.28" length="238.26" friendlyPos="1"/>
+        <access lane="353955706#0_0" pos="12.27" length="108.68" friendlyPos="1"/>
+        <access lane="353955706#1_0" pos="16.37" length="120.36" friendlyPos="1"/>
+    </busStop>
+    <busStop id="5395534140" name="Forca - Túnel" lane="152278371#0_1" startPos="0.00" endPos="15.00" friendlyPos="true"/>
+    <busStop id="5395534151" name="Capela de São Geraldo" lane="559442191#1_1" startPos="234.60" endPos="249.60" friendlyPos="true"/>
+    <busStop id="5407993802" name="EB 23 João Afonso" lane="411775913_1" startPos="27.14" endPos="42.14" friendlyPos="true"/>
+    <busStop id="5409302994" name="Av. Araújo Silva / R. Castro Matoso" lane="694100500#1_1" startPos="0.00" endPos="15.00" friendlyPos="true"/>
+    <busStop id="5409307683" name="Av. Araújo Silva" lane="694100500#3_1" startPos="72.55" endPos="87.55" friendlyPos="true"/>
+    <busStop id="5409307684" name="Av. Araújo Silva" lane="694100500#3_1" startPos="82.06" endPos="97.06" friendlyPos="true"/>
+    <busStop id="5409351465" name="R. do Caseiro" lane="246180935#1_1" startPos="36.52" endPos="51.52" friendlyPos="true"/>
+    <busStop id="5409351466" name="R. do Caseiro" lane="246180935#1_1" startPos="50.84" endPos="65.84" friendlyPos="true"/>
+    <busStop id="5414036218" name="Av. Dr. L. Peixinho - Oita" lane="182176861#1_1" startPos="61.57" endPos="76.57" friendlyPos="true"/>
+    <busStop id="5417734729" name="Junta de Freguesia da Glória" lane="494457224#1_1" startPos="17.22" endPos="32.22" friendlyPos="true"/>
+    <busStop id="7882258878" lane="1078551827_0" startPos="5.91" endPos="5.91" friendlyPos="true" lines="L10"/>
+</additional>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <vType id="pt_bus" vClass="bus" speedFactor="0.95"/>
+    <vType id="pt_tram" vClass="tram" speedFactor="1.0"/>
+    <vType id="pt_train" vClass="rail"/>
+    <vType id="pt_subway" vClass="subway"/>
+    <vType id="pt_light_rail" vClass="rail_urban"/>
+    <vType id="pt_monorail" vClass="rail_urban"/>
+    <vType id="pt_trolleybus" vClass="bus" speedFactor="0.95"/>
+    <vType id="pt_minibus" vClass="bus" speedFactor="0.95"/>
+    <vType id="pt_share_taxi" vClass="taxi" speedFactor="0.95"/>
+    <vType id="pt_aerialway" vClass="cable_car" length="2.5" width="2" personCapacity="4"/>
+    <vType id="pt_ferry" vClass="ship"/>
+    <trip id="0_bus_Transdev:_Aveiro_→_Oliveira_de_Azeméis:0" type="pt_bus" depart="3.0" departLane="best" from="493286528#0" to="494457234">
+        <stop busStop="5366099994" duration="30"/>  <!-- Avenida da Universidade -->
+    </trip>
+    <trip id="1_bus_L4:0" type="pt_bus" depart="15.0" departLane="best" from="135643607" to="494457226#3">
+        <stop busStop="5366100013" duration="30"/>  <!-- R. de Ovar -->
+    </trip>
+    <trip id="2_bus_Linha_Centro:_Azul:0" type="pt_bus" depart="15.0" departLane="best" from="-541689219" to="-541689219">
+        <stop busStop="-5407623406" duration="30"/>  <!-- Rua do Clube dos Galitos -->
+    </trip>
+    <trip id="3_bus_Linha_Centro:_Verde:0" type="pt_bus" depart="17.0" departLane="best" from="1280691251" to="1280691251">
+        <stop busStop="5394204044" duration="30"/>  <!-- Forca - Túnel -->
+    </trip>
+    <trip id="4_bus_5951:0" type="pt_bus" depart="52.0" departLane="best" from="494457234" to="494457234">
+        <stop busStop="5366100012" duration="30"/>  <!-- Estação de Aveiro -->
+    </trip>
+    <trip id="5_bus_L11:0" type="pt_bus" depart="93.0" departLane="best" from="135440071#0" to="1312446728">
+        <stop busStop="-1596871196" duration="30"/>  <!-- None -->
+    </trip>
+    <trip id="6_bus_L11:1" type="pt_bus" depart="119.0" departLane="best" from="33654363#0" to="135441168">
+        <stop busStop="1596871196" duration="30"/>  <!-- None -->
+    </trip>
+    <trip id="7_bus_L1:0" type="pt_bus" depart="131.0" departLane="best" from="135643607" to="135643607">
+        <stop busStop="5366100013" duration="30"/>  <!-- R. de Ovar -->
+    </trip>
+    <trip id="8_bus_L2:0" type="pt_bus" depart="132.0" departLane="best" from="493286523" to="135643607">
+        <stop busStop="5366334857" duration="30"/>  <!-- Av. Dr. L. Peixinho - CTT -->
+    </trip>
+    <trip id="9_bus_L3:0" type="pt_bus" depart="133.0" departLane="best" from="33654363#0" to="135441168">
+        <stop busStop="-5366100014" duration="30"/>  <!-- Escolas de Santiago -->
+    </trip>
+    <trip id="10_bus_L7:0" type="pt_bus" depart="165.0" departLane="best" from="135430903" to="494457234">
+        <stop busStop="5366100012" duration="30"/>  <!-- Estação de Aveiro -->
+        <stop busStop="4857573219" duration="30"/>  <!-- gare -->
+    </trip>
+    <trip id="11_bus_L6:0" type="pt_bus" depart="201.0" departLane="best" from="135440071#0" to="42772215#9">
+        <stop busStop="5366100014" duration="30"/>  <!-- Escolas de Santiago -->
+    </trip>
+    <trip id="12_bus_L5:0" type="pt_bus" depart="204.0" departLane="best" from="493286523" to="135643607">
+        <stop busStop="5366334857" duration="30"/>  <!-- Av. Dr. L. Peixinho - CTT -->
+    </trip>
+    <trip id="13_bus_L9:0" type="pt_bus" depart="253.0" departLane="best" from="493286523" to="135660331">
+        <stop busStop="5366334857" duration="30"/>  <!-- Av. Dr. L. Peixinho - CTT -->
+        <stop busStop="-392954393" duration="30"/>  <!-- R. Caçadores 10 - Misericórdia -->
+        <stop busStop="5368271759" duration="30"/>  <!-- None -->
+    </trip>
+    <trip id="14_bus_L10:0" type="pt_bus" depart="303.0" departLane="best" from="493286523" to="135660331">
+        <stop busStop="5366334857" duration="30"/>  <!-- Av. Dr. L. Peixinho - CTT -->
+        <stop busStop="7882258878" duration="30"/>  <!-- None -->
+        <stop busStop="-392954393" duration="30"/>  <!-- R. Caçadores 10 - Misericórdia -->
+        <stop busStop="5368271759" duration="30"/>  <!-- None -->
+    </trip>
+    <trip id="15_bus_L13:0" type="pt_bus" depart="326.0" departLane="best" from="358981123" to="494457234">
+        <stop busStop="-5407623406" duration="30"/>  <!-- Rua do Clube dos Galitos -->
+    </trip>
+    <trip id="16_bus_L1:1" type="pt_bus" depart="353.0" departLane="best" from="135643607" to="494457234">
+        <stop busStop="5366100013" duration="30"/>  <!-- R. de Ovar -->
+    </trip>
+    <trip id="17_bus_L2:1" type="pt_bus" depart="383.0" departLane="best" from="135643607" to="494457234">
+        <stop busStop="5366100013" duration="30"/>  <!-- R. de Ovar -->
+    </trip>
+    <trip id="18_bus_L3:1" type="pt_bus" depart="389.0" departLane="best" from="-560761988" to="-494457226#0">
+        <stop busStop="-4857573219" duration="30"/>  <!-- gare -->
+    </trip>
+    <trip id="19_bus_L11:2" type="pt_bus" depart="406.0" departLane="best" from="694100496" to="135441168">
+        <stop busStop="1596871196" duration="30"/>  <!-- None -->
+    </trip>
+    <trip id="20_bus_L6:1" type="pt_bus" depart="418.0" departLane="best" from="135643607" to="559442191#3">
+        <stop busStop="5366100013" duration="30"/>  <!-- R. de Ovar -->
+    </trip>
+    <trip id="21_bus_L9:1" type="pt_bus" depart="441.0" departLane="best" from="-560761988" to="694040966#4">
+        <stop busStop="-5366100012" duration="30"/>  <!-- Estação de Aveiro -->
+        <stop busStop="-4857573219" duration="30"/>  <!-- gare -->
+        <stop busStop="5366334858" duration="30"/>  <!-- Av. Dr. L. Peixinho - CTT -->
+    </trip>
+    <trip id="22_bus_L13:1" type="pt_bus" depart="483.0" departLane="best" from="494457234" to="497767446">
+        <stop busStop="5366100012" duration="30"/>  <!-- Estação de Aveiro -->
+        <stop busStop="4857573219" duration="30"/>  <!-- gare -->
+        <stop busStop="5366334857" duration="30"/>  <!-- Av. Dr. L. Peixinho - CTT -->
+    </trip>
+    <trip id="23_bus_L13:2" type="pt_bus" depart="485.0" departLane="best" from="494457234" to="34039298#1">
+        <stop busStop="4857573219" duration="30"/>  <!-- gare -->
+        <stop busStop="5366100012" duration="30"/>  <!-- Estação de Aveiro -->
+        <stop busStop="5366334857" duration="30"/>  <!-- Av. Dr. L. Peixinho - CTT -->
+    </trip>
+    <trip id="24_bus_L13:3" type="pt_bus" depart="535.0" departLane="best" from="358981123" to="494457234">
+        <stop busStop="5366100005" duration="30"/>  <!-- Hospital / Universidade -->
+    </trip>
+    <trip id="25_bus_5957:0" type="pt_bus" depart="574.0" departLane="best" from="494457234" to="494457234">
+        <stop busStop="4857573219" duration="30"/>  <!-- gare -->
+        <stop busStop="5366100012" duration="30"/>  <!-- Estação de Aveiro -->
+    </trip>
+</routes>
