@@ -1,5 +1,6 @@
 # README
 
+
 ## 1. Setup
 
 ### 1.1 Create a Python Virtual Environment
@@ -37,7 +38,7 @@ python3 train.py --save_model="data/trained_model_ppo_aveiro_traffic" --simulati
 python3 test.py --load_model="data/trained_model_ppo_aveiro_traffic" --simulation="aveiro_traffic/osm" --traffic_scale=1
 ```
 
-## 3. Visualizando Dados durante o treino
+## 3. Visualization
 
 ### 3.1 Show TensorBoard
 ```bash
@@ -101,3 +102,38 @@ python3 $SUMO_HOME/tools/visualization/plotXMLAttributes.py -x begin -y CO2_abs 
 ```bash
 python3 $SUMO_HOME/tools/visualization/plotXMLAttributes.py -x begin -y waitingTime -i @NONE data/waitingTime-smart.xml data/waitingTime-normal.xml data/waitingTime-actuated.xml --ylabel="Time s/m" --title="Waiting Time in Traffic Lights" --legend --barplot --xbin=60
 ```
+
+---
+
+## Add a Simulation
+
+### 1. Create the Simulation
+Use the following command to create a simulation using the **osmWebWizard**:
+```bash
+python3 $SUMO_HOME/tools/osmWebWizard.py
+```
+
+### 2. Select the Desired City
+- In the web interface, choose the region of interest by selecting the desired city or area for the simulation.
+
+### 3. Modify Traffic Lights
+
+1. Open the file `osm.net.xml.gz` in **NetEdit**.
+2. Change the traffic light ID for each intersection to a sequential naming format:
+    - **TLS1**, **TLS2**, ..., **TLSn**.
+
+### 4. Add Detectors to the Simulation
+
+1. Add detectors to the simulation by creating an `osm.det.xml` file in the same folder where the simulation files are located.
+    - This file should define detectors and associate them with the corresponding lanes. You can look on `/sumo_config/aveiro_traffic/osm.det.xml`
+    
+2. Connect the detectors to the simulation configuration file `osm.sumocfg`.
+    - This ensures the detectors are recognized and functional within the simulation.
+
+### 5. Test the Simulation
+Once the setup is complete, run the simulation using **sumo-gui** to visually verify the traffic flow and detector operations:
+```bash
+sumo-gui -c sumo_config/<simulation_name>/osm.sumocfg 
+```
+
+---
