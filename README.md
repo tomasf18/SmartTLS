@@ -1,6 +1,5 @@
 # README
 
-
 ## 1. Setup
 
 ### 1.1 Create a Python Virtual Environment
