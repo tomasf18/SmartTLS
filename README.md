@@ -1,5 +1,11 @@
 # README
 
+## Our Team 
+
+| <div align="center"><a href="https://github.com/tomasf18"><img src="https://avatars.githubusercontent.com/u/122024767?v=4" width="150px;" alt="Tomás Santos"/></a><br/><strong>Tomás Santos</strong> | <div align="center"><a href="https://github.com/pedropintoo"><img src="https://avatars.githubusercontent.com/u/120741472?v=4" width="150px;" alt="Pedro Pinto"/></a><br/><strong>Pedro Pinto</strong> | <div align="center"><a href="https://github.com/DaniloMicael"><img src="https://avatars.githubusercontent.com/u/115811245?v=4" width="150px;" alt="Danilo Silva"/></a><br/><strong>Danilo Silva</strong> | <div align="center"><a href="https://github.com/jpapinto"><img src="https://avatars.githubusercontent.com/u/81636006?v=4" width="150px;" alt="João Pinto"/></a><br/><strong>João Pinto</strong> | <div align="center"><a href="https://github.com/Gui113893"><img src="https://avatars.githubusercontent.com/u/119808297?v=4" width="150px;" alt="Guilherme Santos"/></a><br/><strong>Guilherme Santos</strong> |
+| --- | --- | --- | --- |
+
+
 ## 1. Setup
 
 ### 1.1 Create a Python Virtual Environment
