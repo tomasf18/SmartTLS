@@ -20,7 +20,7 @@ Key features of the project include:
 
 This innovative approach represents a sustainable and efficient solution for urban traffic management, aligning with the goals of smart city development and enhancing the quality of urban living.
 
-For more details, please refer to the project documentation files: [Proposed Challenge](docs/ATW24_Hackathon_Desafio4_ATCIUA.pdf), [Project Presentation](docs/SmartTLS_presentation.pptx), [Executive Summary](docs/Sumario_Executivo_ATC_Hackathon_2024.pdf), and [Technical Report](docs/Report.pdf).
+For more details, please refer to the project documentation files: [Proposed Challenge](docs/ATW24_Hackathon_Desafio4_ATCIUA.pdf), [Project Presentation](docs/SmartTLS_presentation.pdf), [Executive Summary](docs/Sumario_Executivo_ATC_Hackathon_2024.pdf), and [Technical Report](docs/Report.pdf).
 
 ---
 
