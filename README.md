@@ -1,4 +1,4 @@
-# Smart Traffic Light System (SmartTLS)
+# Smart Traffic Lights System (SmartTLS)
 
 ## Our Team 
 
